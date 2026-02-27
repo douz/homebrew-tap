@@ -2,7 +2,7 @@ class MacMotd < Formula
   desc "Modular zsh MOTD for macOS"
   homepage "https://github.com/douz/mac-motd"
   url "https://github.com/douz/mac-motd/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_RELEASE_SHA256"
+  sha256 "1b082b61b017b348fbe342296e73148b21507533286e99cf623cdabe1d1831f2"
   license "MIT"
 
   depends_on "figlet"
