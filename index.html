@@ -29,6 +29,18 @@
 mac-motd install</pre>
       <p>Source: <a href="https://github.com/douz/mac-motd">douz/mac-motd</a></p>
     </section>
+    <section class="card">
+      <h2>Upgrade mac-motd</h2>
+      <pre>brew update
+brew upgrade mac-motd
+mac-motd install</pre>
+      <p><code>mac-motd install</code> refreshes the installed runtime while preserving your existing <code>~/.douz.io/motd_config.zsh</code>.</p>
+    </section>
+    <section class="card">
+      <h2>Refresh Config Template</h2>
+      <pre>mac-motd install --refresh-config</pre>
+      <p>Use this only when you want the latest default config template. The command creates a timestamped backup of your current config before replacing it.</p>
+    </section>
   </main>
 </body>
 </html>
