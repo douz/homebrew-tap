@@ -1,14 +1,14 @@
 class MacMotd < Formula
   desc "Modular zsh MOTD for macOS"
   homepage "https://github.com/douz/mac-motd"
-  url "https://github.com/douz/mac-motd/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "ddd2908681dce7c5f2134a45e2dae45a5fc6968242f918b0480787fe29a0691c"
+  url "https://github.com/douz/mac-motd/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "b2baa41a2504846fd788653414f570afa3d05d100032bd7556ccfe4d0932e50c"
   revision 1
   license "MIT"
 
   depends_on "figlet"
   depends_on "ical-buddy"
-  depends_on "smctemp"
+  depends_on "narugit/tap/smctemp"
   depends_on "smartmontools"
 
   def install
@@ -23,6 +23,9 @@ class MacMotd < Formula
 
       This creates user config at:
         ~/.douz.io/motd_config.zsh
+
+      To refresh the config template safely:
+        mac-motd install --refresh-config
 
       To uninstall:
         mac-motd uninstall
