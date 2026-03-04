@@ -1,8 +1,8 @@
 class MacMotd < Formula
   desc "Modular zsh MOTD for macOS"
   homepage "https://github.com/douz/mac-motd"
-  url "https://github.com/douz/mac-motd/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "6314759cbdb862e18d23829561bcb19e87abf2d49f723bfb4fa431ade7e48b23"
+  url "https://github.com/douz/mac-motd/archive/refs/tags/v0.1.8.tar.gz"
+  sha256 "bce03bfa4049e9bff4d9ec7deb3b936a9bd42ded91a872663e0a99b2b13f487a"
 
   license "MIT"
 
